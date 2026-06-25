@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "932892906896",
+    "project_id": "kawsaqeco",
+    "storage_bucket": "kawsaqeco.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932892906896:android:cdc5e2f00f00624f368f15",
+        "android_client_info": {
+          "package_name": "com.kawsaqeco.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932892906896-3afmp7n59r5l8tf8s5ih95elntdvbear.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV09ruXaOJnE1cNrpHZiThIEq7eBlatUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932892906896-3afmp7n59r5l8tf8s5ih95elntdvbear.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,34 @@
+# Render Blueprint — https://render.com/docs/blueprint-spec
+# Conecta el repo en Render → New → Blueprint
+
+services:
+  - type: web
+    name: kawsaqeco-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRE_HOURS
+        value: "168"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: FIREBASE_PROJECT_ID
+        sync: false
+      - key: FIREBASE_WEB_API_KEY
+        sync: false
+      - key: FIREBASE_CREDENTIALS_JSON
+        sync: false
+      - key: CORS_ORIGINS
+        value: https://kawsaqeco.app
+      - key: PORT
+        value: "8000"
+    disk:
+      name: kawsaqeco-data
+      mountPath: /app/data
+      sizeGB: 1

@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+firebase-credentials.json
+backend/data/users_auth.json
+backend/data/points_cache.json
+backend/data/redemptions.json
+
+# Node
+node_modules/
+.expo/
+dist/
+mobile/android/
+mobile/ios/
+
+# IDE
+.idea/
+.vscode/
+
+# General
+.DS_Store
+*.log

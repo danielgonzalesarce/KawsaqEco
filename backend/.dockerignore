@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.git
+.pytest_cache
+tests/
+scripts/
+firebase-credentials.json
+data/users_auth.json
+data/points_cache.json
+data/redemptions.json

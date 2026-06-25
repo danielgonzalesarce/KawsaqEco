@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "KawsaqEco",
+    "slug": "kawsaqeco",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2D6A4F"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "usesCleartextTraffic": true,
+      "package": "com.kawsaqeco.app",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "KawsaqEco necesita la cámara para escanear residuos."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "KawsaqEco usa tu ubicación para acopios cercanos en Santa Anita y el mapa."
+        }
+      ],
+      "expo-web-browser",
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.932892906896-3afmp7n59r5l8tf8s5ih95elntdvbear"
+        }
+      ]
+    ],
+    "scheme": "kawsaqeco",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

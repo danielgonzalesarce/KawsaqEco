@@ -1,0 +1,58 @@
+{
+  "plástico": {
+    "titulo": "Reciclaje de plástico en Lima",
+    "normativa": "Ley N° 30884 — Ley de plásticos de un solo uso",
+    "resumen": "Prohibido entregar bolsas plásticas de un solo uso en comercios. Separa PET, tapas y etiquetas.",
+    "contenedor": "Amarillo o punto de acopio / municipalidad",
+    "multa_aprox": "Hasta 43 UIT por incumplimiento empresarial",
+    "fuente": "MINAM / Municipalidades distritales"
+  },
+  "papel": {
+    "titulo": "Papel y cartón",
+    "normativa": "Reglamento de gestión de residuos sólidos municipales",
+    "resumen": "Retira cinta y plástico. No manchado con grasa ni comida.",
+    "contenedor": "Azul o acopio autorizado",
+    "multa_aprox": "Sanciones municipales por vertimiento irregular",
+    "fuente": "Ministerio del Ambiente"
+  },
+  "vidrio": {
+    "titulo": "Vidrio",
+    "normativa": "Normas municipales de reciclaje Lima Metropolitana",
+    "resumen": "Enjuaga envases. No mezclar con cerámica ni espejos.",
+    "contenedor": "Verde o municipalidad",
+    "multa_aprox": "Multas por botar en vía pública (ordenanzas distritales)",
+    "fuente": "Municipalidad distrital"
+  },
+  "metal": {
+    "titulo": "Metal y latas",
+    "normativa": "Programas de reciclaje EcoRed / municipalidades",
+    "resumen": "Aplasta latas de aluminio y acero. Separa tapas si es posible.",
+    "contenedor": "Gris o punto de acopio",
+    "multa_aprox": "Vertederos informales sancionados por INDECI en emergencias",
+    "fuente": "MINAM"
+  },
+  "orgánico": {
+    "titulo": "Residuos orgánicos",
+    "normativa": "Ley N° 27314 — Ley General de Residuos Sólidos",
+    "resumen": "Composta en casa o usa contenedor marrón si tu distrito lo tiene. Reduce 50% del basurero.",
+    "contenedor": "Marrón / compostaje doméstico",
+    "multa_aprox": "Basura mal segregada puede generar multas municipales",
+    "fuente": "Ley 27314"
+  },
+  "electrónico": {
+    "titulo": "Residuos de aparatos eléctricos y electrónicos (RAEE)",
+    "normativa": "Decreto Supremo N° 017-2019-MINAM",
+    "resumen": "No botar en basura común. Llévalo a puntos RAEE o municipalidades con programa.",
+    "contenedor": "Punto RAEE / municipalidad autorizada",
+    "multa_aprox": "Infracciones ambientales según TUO del DL 1013",
+    "fuente": "MINAM — RAEE"
+  },
+  "general": {
+    "titulo": "Normativa general Lima Metropolitana",
+    "normativa": "Ley N° 27314 y ordenanzas distritales",
+    "resumen": "Lima recicla ~1% formalmente. Meta nacional 15% para 2030. Usa municipalidades y EcoRed.",
+    "contenedor": "Según tipo de residuo",
+    "multa_aprox": "Varía por distrito y tipo de infracción",
+    "fuente": "MINAM / PRODUCE / Municipalidades"
+  }
+}
