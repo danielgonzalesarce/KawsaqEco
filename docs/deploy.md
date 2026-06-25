@@ -29,9 +29,9 @@ docker run -p 8000:8000 \
   kawsaqeco-api
 ```
 
-### Disco persistente
+### Disco persistente (plan de pago)
 
-`render.yaml` monta `/app/data` para que usuarios, puntos y canjes **no se pierdan** al reiniciar el contenedor.
+En el **plan free** de Render no hay disco persistente: usuarios/puntos en JSON se **reinician** al redeploy o tras inactividad prolongada. Para producción estable configura **Firebase** (`FIREBASE_CREDENTIALS_JSON`) o sube a plan Starter con disco en `render.yaml`.
 
 ### Verificar
 

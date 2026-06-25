@@ -28,7 +28,5 @@ services:
         value: https://kawsaqeco.app
       - key: PORT
         value: "8000"
-    disk:
-      name: kawsaqeco-data
-      mountPath: /app/data
-      sizeGB: 1
+    # Disco persistente solo en planes de pago ($7+/mes).
+    # En free tier los datos JSON se reinician al redeploy; usa Firebase para persistencia.
