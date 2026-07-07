@@ -253,6 +253,25 @@ kawsaqeco/
 
 ---
 
+## Capturas de pantalla
+
+| Pantalla | Vista previa |
+|----------|--------------|
+| Splash | ![Splash](mobile/assets/images/splash.jpeg) |
+| Login | ![Login](mobile/assets/images/auth/login.jpeg) |
+| Registro | ![Registro](mobile/assets/images/auth/register.jpeg) |
+| Inicio | ![Inicio](mobile/assets/images/screens/home.jpeg) |
+| Escaneo IA | ![Escaneo](mobile/assets/images/screens/scan.jpeg) |
+| Chat Kawsaq | ![Chat](mobile/assets/images/screens/chat.jpeg) |
+| Mapa acopios | ![Mapa](mobile/assets/images/screens/mapa.jpeg) |
+| Mis reciclajes | ![Historial](mobile/assets/images/screens/mis-reciclajes.jpeg) |
+| Recompensas | ![Recompensas](mobile/assets/images/screens/recompensas.jpeg) |
+| Dashboard | ![Dashboard](mobile/assets/images/screens/dashboard.jpeg) |
+
+Guía para la PPT del hackathon: [docs/presentacion/README.md](docs/presentacion/README.md).
+
+---
+
 ## Módulos principales
 
 | Módulo | Descripción |
